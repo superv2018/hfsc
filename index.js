@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const Note = require("./models/note");
-const { update } = require("./models/note");
+
 
 app.use(cors());
 app.use(express.static("build"));
